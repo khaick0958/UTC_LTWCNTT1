@@ -1,0 +1,15 @@
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.AssemblyInfoInputs.cache
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.AssemblyInfo.cs
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.csproj.CoreCompileInputs.cache
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.sourcelink.json
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\bin\Debug\net10.0\PqkLesson01.exe
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\bin\Debug\net10.0\PqkLesson01.deps.json
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\bin\Debug\net10.0\PqkLesson01.runtimeconfig.json
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\bin\Debug\net10.0\PqkLesson01.dll
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\bin\Debug\net10.0\PqkLesson01.pdb
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.dll
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\refint\PqkLesson01.dll
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.pdb
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\PqkLesson01.genruntimeconfig.cache
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson01\obj\Debug\net10.0\ref\PqkLesson01.dll

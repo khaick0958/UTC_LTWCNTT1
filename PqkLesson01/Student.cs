@@ -1,6 +1,6 @@
 namespace PqkLesson01
 {
-    internal class Student
+    public class Student
     {
         public string masv { get; set; }
         public string hoTen{ get; set; }

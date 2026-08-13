@@ -8,8 +8,8 @@ namespace PqkLesson01
             string choice;
             List<Student> students = new List<Student>()
             {
-                new Student { masv = "SV001", hoTen = "Nguyen Van A", ngaySinh = new DateTime(2000, 1, 1), gioiTinh = true, email = "nguyenvana@example.com", soDienThoai = "0123456789", nganhHoc = "CNTT", diemTrungBinh = 8.5f, trangThai = true } ,
-                new Student { masv = "SV002", hoTen = "Tran Thi B", ngaySinh = new DateTime(2001, 2, 2), gioiTinh = false, email = "Chungtrinhj@gmaii.com", soDienThoai = "0987654321", nganhHoc = "Kinh te", diemTrungBinh = 7.2f, trangThai = true }
+                new Student { masv = "SV001", hoTen = "Nguyen Van A", ngaySinh = new DateTime(2000, 1, 1), gioiTinh = true, email = "nguyenvana@example.com", soDienThoai = "0123456789", nghanhHoc = "CNTT", diemTrungBinh = 8.5f, trangThai = true } ,
+                new Student { masv = "SV002", hoTen = "Tran Thi B", ngaySinh = new DateTime(2001, 2, 2), gioiTinh = false, email = "Chungtrinhj@gmaii.com", soDienThoai = "0987654321", nghanhHoc = "Kinh te", diemTrungBinh = 7.2f, trangThai = true }
             };
         }
 
@@ -22,9 +22,9 @@ namespace PqkLesson01
             Console.Write("Nhập họ và tên: ");
             student.hoTen = Console.ReadLine();
             Console.Write("Nhập ngày sinh: ");
-            student.ngaySinh = Console.ReadLine();
+            student.ngaySinh = DateTime.Parse(Console.ReadLine()!);
             Console.Write("Nhập giới tính: ");
-            student.gioiTinh = Console.ReadLine();
+            student.gioiTinh = bool.Parse(Console.ReadLine()!);
             Console.Write("Nhập email: ");
             student.email = Console.ReadLine();
             Console.Write("Nhập số điện thoại: ");
@@ -32,9 +32,9 @@ namespace PqkLesson01
             Console.Write("Nhập nghành học: ");
             student.nghanhHoc = Console.ReadLine();
             Console.Write("Nhập điểm trung bình: ");
-            student.diemTrungBinh = Console.ReadLine();
+            student.diemTrungBinh = float.Parse(Console.ReadLine()!);
             Console.Write("Nhập trạng thái học tập: ");
-            student.trangThai = Console.ReadLine();
+            student.trangThai = bool.Parse(Console.ReadLine());
             students.Add(student);
         }
 
@@ -54,26 +54,30 @@ namespace PqkLesson01
             }
         }
 
+        //Kiểm tra xem sinh viên có tồn tại trong danh sách không?
+        static Student? CheckSinhVien(List<Student> students, string maSV)
+        {
+            return students.FirstOrDefault(student => student.masv == maSV);
+        }
+
         //Tìm sinh viên theo mã
         static void TimSinhVienTheoMaSV(List<Student> students)
         {
-            bool trangThai = false;
             string masv;
             Console.Write("Nhập mã sinh viên cần tìm: ");
             masv = Console.ReadLine();
             Console.Write("Kết quả: ");
 
-            foreach (var student in students)
-            {
-                if (student.masv == masv)
-                {
-                    ShowSinhVien(student);
-                    trangThai = true;
-                    break;
-                }
-            }
+            Student? student = CheckSinhVien(students, masv);
 
-            if (!trangThai) Console.WriteLine("Không tìm thấy kết quả!");
+            if (student is not null)
+            {
+                ShowSinhVien(student);
+            }
+            else
+            {
+                Console.WriteLine("Không tìm thấy kết quả!");
+            }
         }
 
         //Tìm gần đúng theo họ tên
@@ -81,10 +85,46 @@ namespace PqkLesson01
         //Cập nhật sinh viên
 
         //Xóa sinh viên
+        static void XoaSinhVien(List<Student> students)
+        {
+            string masv;
+            Console.Write("Nhập mã sinh viên cần xóa: ");
+            masv = Console.ReadLine();
+            Console.Write("Kết quả: ");
+
+            Student? student = CheckSinhVien(students, masv);
+
+            if (student is not null)
+            {
+                students.Remove(student);
+            }
+            else
+            {
+                Console.WriteLine("Không tìm thấy kết quả!");
+            }
+        }
 
         //Sắp xếp theo họ tên
+        static void SapXepDanhSachTheoHoTen(List<Student> students)
+        {
+            List<Student> sortedByName = students.OrderBy(student => student.hoTen).ToList();
+
+            foreach(var student in sortedByName)
+            {
+                ShowSinhVien(student);
+            }
+        }
 
         //Sắp xếp theo điểm trung bình
+        static void SapXepDanhSachTheoDiemTrungBinh(List<Student> students)
+        {
+            List<Student> sortedByAveragePoints = students.OrderBy(student => student.diemTrungBinh).ToList();
+
+            foreach(var student in sortedByAveragePoints)
+            {
+                ShowSinhVien(student);
+            }
+        }
 
         //Hiển thị sinh viên có điểm từ 8 trở lên
         static void HienThiSinhVienCoDiemTrungBinhCaoHon8(List<Student> students)
@@ -147,6 +187,23 @@ namespace PqkLesson01
         static void DiemTrungBinhCuaToanBoSinhVien(List<Student> students)
         {
             Console.WriteLine($"Điểm trung bình của toàn bộ sinh viên: {AverageDiemTrungBinh(students)}");
+        }
+
+        //Thống kê sinh viên theo nghành học
+
+        //Thống kê sinh viên theo trạng thái
+        static void ThongKeSinhVienTheoTrangThaiHoc(List<Student> students)
+        {
+            int dangHoc = 0, nghiHoc = 0;
+
+            foreach(var student in students)
+            {
+                if (student.trangThai) dangHoc++;
+                else nghiHoc++;
+            }
+
+            Console.WriteLine($"Số sinh viên vẫn đang học: {dangHoc}");
+            Console.WriteLine($"Số sinh viên đã nghỉ học: {nghiHoc}");
         }
     }
 }
