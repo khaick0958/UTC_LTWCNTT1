@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PqkLesson01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c74d01ced815025fe9c97b842560285fd1a84a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f04017e3c88fd0f4695141365d615efe8c59344")]
 [assembly: System.Reflection.AssemblyProductAttribute("PqkLesson01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PqkLesson01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
