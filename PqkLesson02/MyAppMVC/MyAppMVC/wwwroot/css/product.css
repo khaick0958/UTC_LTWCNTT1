@@ -1,0 +1,44 @@
+﻿.ProductListContainer {
+    margin-bottom: 20px;
+}
+
+.ProductAttributes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 8px;
+}
+
+.AttributesInfo {
+    font-weight: bold;
+    padding: 5px 0px 0px 2px;
+}
+
+img {
+    max-width: 60px;
+    max-height: 55px;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: white;
+    background-color: limegreen;
+    border: none;
+    border-radius: 2px;
+    width: 50px;
+    height: 35px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
+
+.ProductInfo {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 0.5px;
+    margin: 0px 0px 20px 0px;
+    padding: 5px 0px 0px 8px;
+}

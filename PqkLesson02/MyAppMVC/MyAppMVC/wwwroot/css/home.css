@@ -1,0 +1,140 @@
+﻿.HomeWrapper {
+    padding: 0px;
+    width: 100%;
+    height: 80%;
+}
+
+img {
+    max-width: 400px;
+    min-width: 90px;
+    max-height: 300px;
+    width: 240px;
+    height: 220px;
+    padding: 7px 3px 7px 3px;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ProductItem {
+    border: 0.5px solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.ProductName {
+    padding: 7px 5px 7px 5px;
+    font-size: 20px;
+}
+
+.SlideShowSection {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.SlideShow {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    background: #214a83;
+}
+
+.Slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+    .Slide.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.SlideContent {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+}
+
+    .SlideContent h1 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .SlideContent p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .SlideContent button {
+        border: none;
+        background: white;
+        color: #333;
+        padding: 5px 12px;
+        cursor: pointer;
+    }
+
+        .SlideContent button:hover {
+            background: #eeeeee;
+        }
+
+.SlideButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 10px 20px;
+    opacity: 0.7;
+}
+
+    .SlideButton:hover {
+        opacity: 1;
+    }
+
+.PrevButton {
+    left: 0;
+}
+
+.NextButton {
+    right: 0;
+}
+
+.SlideDots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.Dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+    .Dot.active {
+        opacity: 1;
+    }

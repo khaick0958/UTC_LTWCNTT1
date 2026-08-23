@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+<head>
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true"/>   
+</head>
+
+<body>
+    <div class="HomeWrapper">
+        <div class="HomeContainer">
+            <div class="SlideShowSection">
+                <div class="SlideShow">
+
+                    <div class="Slide active">
+                        <div class="SlideContent">
+                            <h1>Microsoft Azure</h1>
+                            <p>
+                                Learn how Microsoft Azure cloud platform allows you
+                                to build, deploy, and scale web apps.
+                            </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="Slide">
+                        <div class="SlideContent">
+                            <h1>Microsoft Azure</h1>
+                            <p>
+                                Learn how Microsoft Azure cloud platform allows you
+                                to build, deploy, and scale web apps.
+                            </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="Slide">
+                        <div class="SlideContent">
+                            <h1>Microsoft Azure</h1>
+                            <p>
+                                Learn how Microsoft Azure cloud platform allows you
+                                to build, deploy, and scale web apps.
+                            </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <button class="SlideButton PrevButton"
+                            onclick="changeSlide(-1)">
+                        &#10094;
+                    </button>
+
+                    <button class="SlideButton NextButton"
+                            onclick="changeSlide(1)">
+                        &#10095;
+                    </button>
+
+                    <div class="SlideDots">
+                        <span class="Dot active"
+                              onclick="goToSlide(0)"></span>
+
+                        <span class="Dot"
+                              onclick="goToSlide(1)"></span>
+
+                        <span class="Dot"
+                              onclick="goToSlide(2)"></span>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        
+            <div class="ProductSection">
+                <h4>Danh sách sản phẩm</h4>
+            
+                <div class="Products">
+                    <div class="ProductItem">
+                        <img src="img/Bag1.jpg" alt="Product 1"/>
+                        <div class="ProductName">Product name 1</div>
+                    </div>
+                    <div class="ProductItem">
+                        <img src="img/Bag2.jpg" alt="Product 2" />
+                        <div class="ProductName">Product name 2</div>
+                    </div>
+                    <div class="ProductItem">
+                        <img src="img/Bag3.jpg" alt="Product 3" />
+                        <div class="ProductName">Product name 3</div>
+                    </div>
+                    <div class="ProductItem">
+                        <img src="img/Bag4.jpg" alt="Product 4" />
+                        <div class="ProductName">Product name 4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/home.js" asp-append-version="true"></script>
+</body>
