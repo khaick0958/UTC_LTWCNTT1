@@ -1,0 +1,19 @@
+﻿@{
+	ViewData["Title"] = "Product";
+}
+
+@* <h2>Dữ liệu lấy ra từ ViewBag</h2>
+<div>Mã sản phẩm: @ViewBag.product.ProductId</div>
+<div>Tên sản phẩm: @ViewBag.product.ProductName</div>
+<div>Năm sản xuất: @ViewBag.product.YearRelease</div>
+<div>Giá: @ViewBag.product.Price</div>
+
+<h2>Dữ liệu lấy ra từ ViewData</h2>
+@{
+	var product = ViewData["productVd"] as PqkLesson03.Models.Product;
+}
+
+<div>Mã sản phẩm: @product.ProductId</div>
+<div>Tên sản phẩm: @product.ProductName</div>
+<div>Năm sản xuất: @product.YearRelease</div>
+<div>Giá: @product.Price</div> *@

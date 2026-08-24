@@ -1,0 +1,45 @@
+﻿@{
+	ViewData["Title"] = "Product";
+}
+
+<head>
+	<link rel="stylesheet" href="~/css/productIndex.css" asp-append-version="true" />
+</head>
+<body>
+	<div class="ProductWrapper">
+		<div class="ProductContainer">
+			<div class="CategoryContainer">
+				<div class="Title">DANH MỤC</div>
+				<table class="table table-bordered">
+					<tbody>
+						@foreach (var c in ViewBag.categories)
+						{
+							<tr>
+								<td>@c.CategoryName</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="ProductListContainer">
+				<div class="Title">Danh sách sản phẩm</div>
+
+				<div class="ProductList">
+					@foreach (var p in ViewBag.products)
+					{
+						<div class="ProductInfo">
+							<img src="@p.ProductImage" />
+							<p class="ProductName">@p.ProductName</p>
+							<div class="Prices">
+								<div>Giá: @p.Price</div>
+								<div>Giá: @p.SalePrice</div>
+							</div>
+							<button>Chi tiết</button>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

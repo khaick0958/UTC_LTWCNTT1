@@ -1,0 +1,56 @@
+﻿.ProductContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.Title {
+    font-size: 30px;
+}
+
+.CategoryContainer {
+    width: 280px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 170px;
+    height: 210px;
+}
+
+.ProductList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 55px;
+}
+
+.ProductInfo {
+    padding: 10px 12px 10px 12px;
+    border: solid 1px;
+    width: 194px;
+    height: 335px;
+}
+
+.ProductName {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.Prices {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: forestgreen;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
