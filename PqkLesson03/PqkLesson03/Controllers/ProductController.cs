@@ -6,7 +6,7 @@ namespace PqkLesson03.Controllers
     public class ProductController : Controller
     {
         [Route("menu-san-pham", Name = "Menu")]
-        public IActionResult ProductIndex()
+        public IActionResult ProductIndex(int? id)
         {
             List<Category> categories = new List<Category>
             {
@@ -127,6 +127,13 @@ namespace PqkLesson03.Controllers
                     CreatedAt = "24/08/2021 12:00:00 SA"
                 },
             };
+
+            if (id != null)
+            {
+                products = products
+                    .Where(product => product.CategoryId == id)
+                    .ToList();
+            }
 
             ViewBag.products = products;
             ViewBag.categories = categories;

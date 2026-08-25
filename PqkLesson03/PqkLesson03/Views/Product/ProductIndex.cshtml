@@ -15,7 +15,11 @@
 						@foreach (var c in ViewBag.categories)
 						{
 							<tr>
-								<td>@c.CategoryName</td>
+								<td>
+									<a asp-route="Menu" asp-route-id="@c.CategoryId">
+										@c.CategoryName
+									</a>
+								</td>
 							</tr>
 						}
 					</tbody>

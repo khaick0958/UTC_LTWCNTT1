@@ -98,4 +98,4 @@ C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkL
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\obj\Debug\net10.0\PqkLesson03.genruntimeconfig.cache
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\obj\Debug\net10.0\ref\PqkLesson03.dll
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\obj\Debug\net10.0\compressed\8utseyoqe0-{0}-up1qgeqqt8-up1qgeqqt8.gz
-C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\obj\Debug\net10.0\compressed\nxsl9ym67t-{0}-5bo3kc5ggn-5bo3kc5ggn.gz
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\obj\Debug\net10.0\compressed\nxsl9ym67t-{0}-wk8em3v8vq-wk8em3v8vq.gz
