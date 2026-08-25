@@ -1,11 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\img\Bag1.jpg
-wwwroot\img\Bag2.jpg
-wwwroot\img\Clock.jpg
-wwwroot\img\DoBoi1.jpg
-wwwroot\img\DoBoi2.jpg
-wwwroot\img\DoBoi3.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -67,7 +61,14 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\img\DoBoi1.jpg
+wwwroot\img\DoBoi2.jpg
+wwwroot\img\DoBoi3.jpg
+wwwroot\img\Clock.jpg
+wwwroot\img\Bag1.jpg
+wwwroot\img\Bag2.jpg
 wwwroot\css\productIndex.css
+wwwroot\css\productInfomation.css
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\css\site.css
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\favicon.ico
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\js\site.js
@@ -131,3 +132,4 @@ C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkL
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\css\productIndex.css
+C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PqkLesson03\PqkLesson03\wwwroot\css\productInfomation.css

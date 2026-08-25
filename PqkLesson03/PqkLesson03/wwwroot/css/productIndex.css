@@ -5,6 +5,7 @@
 
 .Title {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .CategoryContainer {
@@ -44,13 +45,13 @@ img {
     font-size: 12px;
 }
 
-button {
-    width: 100%;
-    color: white;
-    background-color: forestgreen;
-    border: none;
+.Price {
+    text-decoration: line-through;
 }
 
-button:hover {
-    background-color: darkgreen;
+.button {
+    padding: 0px 55px 0px 55px;
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
 }

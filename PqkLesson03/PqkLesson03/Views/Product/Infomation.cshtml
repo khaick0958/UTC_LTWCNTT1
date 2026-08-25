@@ -1,0 +1,40 @@
+﻿@{
+	ViewData["Title"] = "Chi tiết";
+	var p = ViewBag.product;
+}
+
+<head>
+	<link rel="stylesheet" href="~/css/productInfomation.css" asp-append-version="true" />
+</head>
+
+<body>
+	<div class="InfoWrapper">
+		<div class="InfoTitle">Chi tiết sản phẩm</div>
+		<div class="ProductInfoContainer">
+			<img src="@p.ProductImage"/>
+			<div class="TextContainer">
+				<div class="ProductName">@p.ProductName</div>
+				<div class="Prices">
+					<div class="Price">Giá gốc: @p.Price</div>
+					<div class="SalePrice">Giá mới: @p.SalePrice</div>
+				</div>
+				<div style="font-size: 24px;">Mô tả:</div>
+				<div class="Desc">@p.Description</div>
+				<div class="States">Trạng thái: 
+					@if (p.Status == true)
+						{
+							<div style="padding-left: 5px;">Còn hàng</div>
+						}
+						else
+						{
+						<div style="padding-left: 5px;">Hết hàng</div>
+						}
+					</div>
+				<div class="Date">Ngày đăng: @p.CreatedAt</div>
+				<a asp-route="Menu" class="btn btn-sm btn-danger">
+					Về danh sách
+				</a>
+			</div>
+		</div>
+	</div>
+</body>

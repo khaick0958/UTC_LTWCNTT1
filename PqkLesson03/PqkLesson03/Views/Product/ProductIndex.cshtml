@@ -32,10 +32,11 @@
 							<img src="@p.ProductImage" />
 							<p class="ProductName">@p.ProductName</p>
 							<div class="Prices">
-								<div>Giá: @p.Price</div>
+								<div class="Price">Giá: @p.Price</div>
 								<div>Giá: @p.SalePrice</div>
 							</div>
-							<button>Chi tiết</button>
+							<a asp-route="Info" asp-route-id="@p.ProductId" class="button">
+							Chi tiết</a>
 						</div>
 					}
 				</div>

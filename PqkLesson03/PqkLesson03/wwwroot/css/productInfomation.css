@@ -1,0 +1,53 @@
+﻿.InfoTitle {
+    font-size: 35px;
+}
+
+.ProductInfoContainer {
+    display: flex;
+}
+
+img {
+    max-width: 350px;
+    max-height: 350px;
+    width: 350px;
+    height: 350px;
+    margin: 10px 30px 10px 10px;
+}
+
+.TextContainer {
+    width: 100%;
+}
+
+.ProductName {
+    font-size: 30px;
+    padding: 0px 0px 18px 0px;
+}
+
+.Prices {
+    display: flex;
+    padding: 0px 0px 18px 0px;
+    font-size: 22px;
+}
+
+.Price {
+    padding-right: 12px;
+    text-decoration: line-through;
+}
+
+.Desc {
+    font-size: 12px;
+    padding: 0px 0px 18px 0px;
+}
+
+.States {
+    display: flex;
+    font-size: 24px;
+    padding: 0px 0px 18px 0px;
+}
+
+.Date {
+    font-size: 24px;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 20px;
+    border-bottom: solid 0.5px;
+}
