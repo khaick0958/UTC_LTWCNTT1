@@ -1,0 +1,13 @@
+﻿<div class="ProductsWrapper">
+    <div class="Title">Sản phẩm</div>
+
+        <div class="ProductPanel">
+            @foreach (var p in ViewBag.products)
+            {
+                <div class="Product">
+                    <img class="productImage" src="@p.image" />
+                    <p class="desc">@p.name</p>
+                </div>
+            }
+        </div>
+</div>

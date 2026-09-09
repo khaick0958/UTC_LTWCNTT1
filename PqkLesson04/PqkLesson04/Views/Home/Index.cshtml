@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="Wrapper">
+        <div class="CategoriesContainer">
+            <partial name ="Category">
+        </div>
+        
+        <div class="ProductListContainer">
+            <div class="NewestProductsContainer">
+                <div class="Title">Sản phẩm mới nhất</div>
+                
+                <div class="ProductPanel">
+                    @foreach (var p in ViewBag.products) 
+                    {
+                        <div class="Product">
+                            <img class="productImage" src="@p.image" />
+                            <p class="desc">@p.name</p>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            @await Component.InvokeAsync("Product")
+        </div>
+    </div>
+</body>

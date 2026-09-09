@@ -1,0 +1,18 @@
+﻿<div class="CategoryTitle">
+	Danh mục sản phẩm
+</div>
+
+<table class="table table-bordered">
+	<tbody>
+		@foreach (var c in ViewBag.categories)
+		{
+			<tr>
+				<td>
+					@c.CategoryName
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<img class="saleImage" src="~/img/sale.jpg"/>
