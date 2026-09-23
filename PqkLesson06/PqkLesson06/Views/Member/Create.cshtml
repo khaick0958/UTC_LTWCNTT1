@@ -1,0 +1,63 @@
+﻿@model PqkLesson06.Models.DataModels.Member
+
+<h2>Thêm mới thành viên</h2>
+<hr/>
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Create">
+			<div class="form-group">
+				<label asp-for="MemberID" class="control-label"></label>
+				<input asp-for="MemberID" class="form-control" readonly />
+			</div>
+			<div class="form-group">
+				<label asp-for="Username" class="control-label"></label>
+				<input asp-for="Username" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label asp-for="Fullname" class="control-label"></label>
+				<input asp-for="Fullname" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label asp-for="Password" class="control-label"></label>
+				<input asp-for="Password" class="form-control" />
+			</div>
+			<div class="form-group">
+				<label asp-for="Email" class="control-label"></label>
+				<input asp-for="Email" class="form-control" />
+			</div>
+			<div class="form-group">
+				<input type="submit" vaule="Lưu" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+@*  *@
+
+
+@* <form asp-action="/Member/Create" method="post">
+	<div class="form-group">
+		<label for="MemberId" class="control-label">Mã thành viên</label>
+		<input class="form-control" type="text" id="MemberID" name="MemberID" vaule="" readonly />
+	</div>
+	<div class="form-group">
+		<label for="Username" class="control-label">Tên đăng nhập</label>
+		<input class="form-control" type=" text" id="Username" name="Username" vaule="" />
+	</div>
+	<div class="form-group">
+		<label for="Fullname" class="control-label">Họ và tên</label>
+		<input class="form-control" type="text" id="Fullname" name="Fullname" vaule="" />
+	</div>
+	<div class="form-group">
+		<label for="Password" class="control-label">Mật khẩu</label>
+		<input class="form-control" type="password" id="Password" name="Password" vaule="" />
+	</div>
+	<div class="form-group">
+		<label for="Email" class="control-label">Email</label>
+		<input class="form-control" type="email" id="Email" name="Email" vaule="" />
+	</div>
+	<div class="form-group">
+		<input type="submit" vaule="Lưu" class="btn btn-primary" />
+	</div>
+	<input name="_ReqestVerificationToken" type="hidden" vaule="" />
+</form> *@

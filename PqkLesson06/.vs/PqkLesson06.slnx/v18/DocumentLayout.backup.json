@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\views\\member\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\views\\member\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson06\\pqklesson06\\models\\datamodels\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB5EE9CB-5CF6-EAB8-CC95-264C887115EF}|PqkLesson06\\PqkLesson06.csproj|solutionrelative:pqklesson06\\models\\datamodels\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "PqkLesson06\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "PqkLesson06\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T14:36:29.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMembers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Member\\GetMembers.cshtml",
+              "RelativeDocumentMoniker": "PqkLesson06\\Views\\Member\\GetMembers.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Member\\GetMembers.cshtml",
+              "RelativeToolTip": "PqkLesson06\\Views\\Member\\GetMembers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T14:34:48.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PqkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PqkLesson06\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T11:56:33.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PqkLesson06\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PqkLesson06\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T11:51:38.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "PqkLesson06\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "PqkLesson06\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T11:47:32.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Models\\DataModels\\Member.cs",
+              "RelativeDocumentMoniker": "PqkLesson06\\Models\\DataModels\\Member.cs",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson06\\PqkLesson06\\Models\\DataModels\\Member.cs",
+              "RelativeToolTip": "PqkLesson06\\Models\\DataModels\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T11:45:15.476Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Member";
+}
+
+@* Truyền dữ liệu bằng ViewBag *@
+@* <h2>Thông tin MEMBER</h2>
+<div>Mã member: @ViewBag.member.MemberID</div>
+<div>Username của member: @ViewBag.member.Username</div>
+<div>Full name của member: @ViewBag.member.Fullname</div>
+<div>Password: @ViewBag.member.Password</div>
+<div>Email: @ViewBag.member.Email</div> *@
+
+@* Truyền dữ liệu bằng View(data) *@
+@* <h2>Thông tin MEMBER</h2>
+<div>Mã member: @Model.MemberID</div>
+<div>Username của member: @Model.Username</div>
+<div>Full name của member: @Model.Fullname</div>
+<div>Password: @Model.Password</div>
+<div>Email: @Model.Email</div> *@
+
+@* Strong typing *@
+@* @{
+    var member = Model as PqkLesson06.Models.DataModels.Member;
+}
+<h2>Thông tin MEMBER</h2>
+<div>Mã member: @member.MemberID</div>
+<div>Username của member: @member.Username</div>
+<div>Full name của member: @member.Fullname</div>
+<div>Password: @member.Password</div>
+<div>Email: @member.Email</div> *@
