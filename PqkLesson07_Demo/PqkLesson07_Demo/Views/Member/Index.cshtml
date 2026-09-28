@@ -1,0 +1,25 @@
+﻿<h2>Danh sách người dùng</h2>
+
+<a asp-controller="Member" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+
+<table class="table table-bordered">
+	<tr>
+		<td>Mã người dùng</td>
+		<td>Username</td>
+		<td>Mật khẩu</td>
+		<td>Email</td>
+		<td>Số điện thoại</td>
+		<td>Ngày sinh</td>
+	</tr>
+	@foreach (var m in ViewBag.members)
+	{
+		<tr>
+			<td>@m.Id</td>
+			<td>@m.Username</td>
+			<td>@m.Password</td>
+			<td>@m.Email</td>
+			<td>@m.SDT</td>
+			<td>@m.NgaySinh</td>
+		</tr>
+	}
+</table>
