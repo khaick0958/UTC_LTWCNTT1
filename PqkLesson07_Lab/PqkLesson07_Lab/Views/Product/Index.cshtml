@@ -1,0 +1,36 @@
+﻿@{
+	ViewData["Title"] = "Sản phẩm";
+}
+
+<h2>Danh sách sản phẩm</h2>
+<a asp-controller="Product" asp-action="Create" class="btn btn-primary">Thêm sản phẩm mới</a>
+
+<table class="table table-bordered">
+	<tr>
+		<td>Id</td>
+		<td>Tên sảm phẩm</td>
+		<td>Link ảnh</td>
+		<td>Giá sản phẩm</td>
+		<td>Giá sale</td>
+		<td>Id danh mục</td>
+		<td>Giới thiệu sản phẩm</td>
+	</tr>
+
+	@foreach (var p in ViewBag.products)
+	{
+		<tr>
+			<td>@p.Id</td>
+			<td>@p.Name</td>
+			<td>@p.Image</td>
+			<td>@p.Price</td>
+			<td>@p.SalePrice</td>
+			<td>@p.CategoryId</td>
+			<td>@p.Description</td>
+			<td>
+				<a asp-controller="Product" asp-action="Edit" asp-route-id="@p.Id">Sửa sản phẩm</a>
+				<a asp-controller="Product" asp-action="Details" asp-route-id="@p.Id">Thông tin sản phẩm</a>
+				<a asp-controller="Product" asp-action="Delete" asp-route-id="@p.Id">Xóa sản phẩm</a>
+			</td>
+		</tr>
+	}
+</table>

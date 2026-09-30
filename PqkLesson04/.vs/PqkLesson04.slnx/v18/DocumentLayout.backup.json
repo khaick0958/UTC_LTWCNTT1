@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\views\\shared\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\views\\shared\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\views\\shared\\components\\product\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\views\\shared\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|solutionrelative:pqklesson04\\views\\shared\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D059A70-A4E2-8F85-5699-9FAE61D22E3D}|PqkLesson04\\PqkLesson04.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson04\\pqklesson04\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\wwwroot\\css\\Home.css",
               "RelativeDocumentMoniker": "PqkLesson04\\wwwroot\\css\\Home.css",
               "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\wwwroot\\css\\Home.css",
               "RelativeToolTip": "PqkLesson04\\wwwroot\\css\\Home.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-09-09T11:37:19.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Category.cshtml",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\Views\\Shared\\Category.cshtml",
               "RelativeDocumentMoniker": "PqkLesson04\\Views\\Shared\\Category.cshtml",
@@ -79,21 +79,19 @@
               "RelativeToolTip": "PqkLesson04\\Views\\Shared\\Category.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-09T12:21:02.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T12:21:02.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "RelativeDocumentMoniker": "PqkLesson04\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\Views\\Shared\\Components\\Product\\Default.cshtml",
               "RelativeToolTip": "PqkLesson04\\Views\\Shared\\Components\\Product\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-09T11:59:56.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T11:59:56.726Z"
             },
             {
               "$type": "Document",
@@ -103,10 +101,9 @@
               "RelativeDocumentMoniker": "PqkLesson04\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson04\\PqkLesson04\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "PqkLesson04\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-07T01:43:18.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T01:43:18.735Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "PqkLesson04\\PqkLesson04.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-07T02:19:20.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T02:19:20.544Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "PqkLesson04\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T02:06:32.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T02:06:32.056Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "PqkLesson04\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T02:06:10.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T02:06:10.281Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "PqkLesson04\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T01:43:14.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T01:43:14.514Z"
             }
           ]
         }
