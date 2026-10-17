@@ -1,0 +1,73 @@
+﻿
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <!-- Logo / tên hệ thống -->
+    <a asp-controller="Home"
+       asp-action="Index"
+       class="brand-link">
+        <span class="brand-text font-weight-light">
+            TV MANAGEMENT
+        </span>
+    </a>
+
+    <!-- Nội dung sidebar -->
+    <div class="sidebar">
+
+        <!-- Thông tin người dùng -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="info">
+                <a href="#" class="d-block">
+                    Administrator
+                </a>
+            </div>
+        </div>
+
+        <!-- Danh sách menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column"
+                data-widget="treeview"
+                role="menu"
+                data-accordion="false">
+
+                <li class="nav-item">
+                    <a asp-controller="Home"
+                       asp-action="Index"
+                       class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+
+                <li class="nav-header">QUẢN LÝ</li>
+
+                <li class="nav-item">
+                    <a asp-controller="Category"
+                       asp-action="Index"
+                       class="nav-link">
+                        <i class="nav-icon fas fa-list"></i>
+                        <p>Category</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Product"
+                       asp-action="Index"
+                       class="nav-link">
+                        <i class="nav-icon fas fa-tv"></i>
+                        <p>Product</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Customer"
+                       asp-action="Index"
+                       class="nav-link">
+                        <i class="nav-icon fas fa-users"></i>
+                        <p>Customer</p>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</aside>

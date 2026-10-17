@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+
+    <title>@ViewData["Title"] - Admin</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="~/plugins/fontawesome-free/css/all.min.css" />
+
+    <!-- AdminLTE CSS -->
+    <link rel="stylesheet"
+          href="~/dist/css/adminlte.min.css" />
+
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        <!-- Thanh điều hướng trên -->
+        <partial name="_Navbar" />
+
+        <!-- Menu bên trái -->
+        <partial name="_Sidebar" />
+
+        <!-- Nội dung của từng trang -->
+        <div class="content-wrapper">
+            @RenderBody()
+        </div>
+
+        <!-- Chân trang -->
+        <partial name="_Footer" />
+
+    </div>
+
+    <!-- JavaScript: giữ đúng thứ tự -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/dist/js/adminlte.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
