@@ -1,0 +1,11 @@
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand ps-3" asp-controller="Student" asp-action="Index">Management System</a>
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" type="button" aria-label="Ẩn/hiện menu">☰</button>
+    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0" asp-controller="Student" asp-action="Index" method="get">
+        <div class="input-group">
+            <input class="form-control" type="search" name="search" placeholder="Search for..." aria-label="Tìm kiếm" value="@(ViewData["Search"] ?? "")" />
+            <button class="btn btn-primary" type="submit" aria-label="Tìm">⌕</button>
+        </div>
+    </form>
+    <span class="navbar-text text-white pe-3" title="Tài khoản">♟</span>
+</nav>

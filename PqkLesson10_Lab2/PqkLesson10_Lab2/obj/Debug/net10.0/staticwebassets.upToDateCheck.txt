@@ -1,0 +1,4 @@
+wwwroot\css\styles.css
+wwwroot\js\scripts.js
+C:\Users\Pham Quang Khai\Documents\Tai_lieu_hoc_tap\BaiThucHanh2_VS2026\wwwroot\css\styles.css
+C:\Users\Pham Quang Khai\Documents\Tai_lieu_hoc_tap\BaiThucHanh2_VS2026\wwwroot\js\scripts.js

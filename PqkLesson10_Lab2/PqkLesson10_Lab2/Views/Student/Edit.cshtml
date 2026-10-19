@@ -1,0 +1,20 @@
+@model BaiThucHanh2.Models.Student
+@{
+    ViewData["Title"] = "Edit Student";
+}
+<h1 class="h3 mb-4">Edit Student</h1>
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post" class="student-form">
+    @Html.AntiForgeryToken()
+    <input asp-for="Id" type="hidden" />
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+    <div class="row align-items-center mb-2"><label asp-for="Name" class="col-md-2 col-form-label">Name</label><div class="col-md-10"><input asp-for="Name" class="form-control" /><span asp-validation-for="Name" class="text-danger"></span></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="Email" class="col-md-2 col-form-label">Email</label><div class="col-md-10"><input asp-for="Email" type="email" class="form-control" /><span asp-validation-for="Email" class="text-danger"></span></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="Password" class="col-md-2 col-form-label">Password</label><div class="col-md-10"><input asp-for="Password" type="password" class="form-control" /><span asp-validation-for="Password" class="text-danger"></span></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="Branch" class="col-md-2 col-form-label">Branch</label><div class="col-md-10"><select asp-for="Branch" class="form-select branch-select"><option value="CE">CE</option><option value="IT">IT</option><option value="Business">Business</option><option value="English">English</option></select></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="IsRegular" class="col-md-2 col-form-label">IsRegular</label><div class="col-md-10"><div class="form-check"><input asp-for="IsRegular" class="form-check-input" /></div></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="DateOfBirth" class="col-md-2 col-form-label">DateOfBirth</label><div class="col-md-10"><input asp-for="DateOfBirth" type="datetime-local" asp-format="{0:yyyy-MM-ddTHH:mm}" class="form-control" /><span asp-validation-for="DateOfBirth" class="text-danger"></span></div></div>
+    <div class="row align-items-center mb-2"><label asp-for="Gender" class="col-md-2 col-form-label">Gender</label><div class="col-md-10"><div class="form-check form-check-inline"><input class="form-check-input" type="radio" asp-for="Gender" value="Male" id="genderMale" /><label class="form-check-label" for="genderMale">Male</label></div><div class="form-check form-check-inline"><input class="form-check-input" type="radio" asp-for="Gender" value="Female" id="genderFemale" /><label class="form-check-label" for="genderFemale">Female</label></div><span asp-validation-for="Gender" class="text-danger"></span></div></div>
+    <div class="row align-items-start mb-3"><label asp-for="Address" class="col-md-2 col-form-label">Address</label><div class="col-md-10"><textarea asp-for="Address" class="form-control" rows="3"></textarea></div></div>
+    <div class="row"><div class="offset-md-2 col-md-10"><button type="submit" class="btn btn-primary">Save changes</button> <a asp-action="Index" class="btn btn-secondary">Cancel</a></div></div>
+</form>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

@@ -1,0 +1,54 @@
+@model IEnumerable<BaiThucHanh2.Models.Student>
+@{
+    ViewData["Title"] = "Students";
+    string BranchName(string branch) => branch switch
+    {
+        "IT" => "CNTT",
+        "Business" => "Kinh tế",
+        "CE" => "Công trình",
+        "English" => "Điện - điện tử",
+        _ => branch
+    };
+}
+<div class="student-toolbar">
+    <a asp-action="Create" class="btn btn-primary btn-sm">Create Student</a>
+</div>
+<div class="table-responsive student-table-wrap">
+    <table class="table table-striped table-hover align-middle student-table">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Ngành</th>
+                <th>Giới tính</th>
+                <th>Hệ ĐT</th>
+                <th>Địa chỉ</th>
+                <th>Email</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.DateOfBirth.ToString("M/d/yyyy h:mm:ss tt", System.Globalization.CultureInfo.GetCultureInfo("en-US"))</td>
+                <td>@BranchName(student.Branch)</td>
+                <td>@(student.Gender == "Male" ? "Nam" : "Nữ")</td>
+                <td>@(student.IsRegular ? "Chính quy" : "Phi chính quy")</td>
+                <td>@student.Address</td>
+                <td>@student.Email</td>
+                <td class="text-nowrap">
+                    <a asp-action="Edit" asp-route-id="@student.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-action="Delete" asp-route-id="@student.Id" method="post" class="d-inline" onsubmit="return confirm('Bạn có chắc muốn xóa sinh viên @student.Name không?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
