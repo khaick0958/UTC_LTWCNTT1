@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{343FA17C-EDD7-467E-89CD-F2FF64979CB5}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\pqklesson10_lab1\\pqklesson10_lab1\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAEBE61-C6D7-97AB-110E-B48436F2EC36}|PqkLesson10_Lab1\\PqkLesson10_Lab1.csproj|solutionrelative:pqklesson10_lab1\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "PqkLesson10_Lab1\\wwwroot\\css\\site.css",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-10-19T01:44:44.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T01:44:44.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MyLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\Views\\Shared\\MyLayout.cshtml",
               "RelativeDocumentMoniker": "PqkLesson10_Lab1\\Views\\Shared\\MyLayout.cshtml",
@@ -83,18 +82,17 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\Views\\Shared\\MyLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-19T01:43:12.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T01:43:12.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "PqkLesson10_Lab1\\Views\\Student\\Create.cshtml",
               "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\Views\\Student\\Create.cshtml",
               "RelativeToolTip": "PqkLesson10_Lab1\\Views\\Student\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-19T01:06:15.015Z",
               "EditorCaption": ""
@@ -109,12 +107,11 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\Views\\Student\\Index.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-19T00:53:16.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T00:53:16.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "PqkLesson10_Lab1\\Controllers\\StudentController.cs",
@@ -122,12 +119,11 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T00:35:52.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T00:35:52.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PqkLesson10_Lab1\\PqkLesson10_Lab1\\Models\\Student.cs",
               "RelativeDocumentMoniker": "PqkLesson10_Lab1\\Models\\Student.cs",
@@ -148,8 +144,7 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\Models\\Branch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T00:32:19.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T00:32:19.782Z"
             },
             {
               "$type": "Document",
@@ -161,8 +156,17 @@
               "RelativeToolTip": "PqkLesson10_Lab1\\Models\\Gender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T00:31:24.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-19T00:31:24.732Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }
