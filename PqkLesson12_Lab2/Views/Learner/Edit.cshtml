@@ -1,0 +1,2 @@
+@model Learner
+<h1>Edit Learner</h1><form asp-action="Edit" method="post" class="edit-form"><input asp-for="Id" type="hidden"/><label>Tên<input asp-for="Name" required /></label><label>Họ<input asp-for="Surname" required /></label><label>Ngành<select asp-for="Major"><option>IT</option><option>Economics</option><option>Mathematics</option></select></label><label>Ngày nhập học<input asp-for="EnrollDate" type="datetime-local" /></label><button class="button">Save</button><a asp-action="Index">Cancel</a></form>

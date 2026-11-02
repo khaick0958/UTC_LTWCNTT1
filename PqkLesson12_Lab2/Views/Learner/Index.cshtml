@@ -1,0 +1,19 @@
+@model List<Learner>
+@{ var major = (string)ViewBag.Major; var search = (string)ViewBag.Search; int page=(int)ViewBag.Page; int totalPages=(int)ViewBag.TotalPages; }
+<h1>Learner List</h1>
+<div class="filters">
+  <a class="filter-link @(major=="IT"?"selected":"")" asp-action="Index" asp-route-major="IT" asp-route-search="@search">IT</a>
+  <a class="filter-link @(major=="Economics"?"selected":"")" asp-action="Index" asp-route-major="Economics" asp-route-search="@search">Economics</a>
+  <a class="filter-link @(major=="Mathematics"?"selected":"")" asp-action="Index" asp-route-major="Mathematics" asp-route-search="@search">Mathematics</a>
+  <a class="filter-link" asp-action="Index" asp-route-search="@search">All</a>
+</div>
+<form method="get" asp-action="Index" class="search-form"><input name="search" value="@search" placeholder="Search learner"/><input type="hidden" name="major" value="@major"/><button type="submit" aria-label="Search">⌕</button></form>
+<table><thead><tr><th>Mã</th><th>Tên</th><th>Họ</th><th>Ngành</th><th>Ngày Nhập Học</th><th>Chức năng</th></tr></thead><tbody>
+@if(Model.Count==0){<tr><td colspan="6" class="empty">Không có dữ liệu phù hợp.</td></tr>}
+@foreach(var item in Model){<tr><td>@item.Id</td><td>@item.Name</td><td>@item.Surname</td><td>@item.Major</td><td>@item.EnrollDate.ToString("M/d/yyyy h:mm:ss tt")</td><td class="actions"><a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | <a asp-action="Delete" asp-route-id="@item.Id">Delete</a></td></tr>}
+</tbody></table>
+<nav class="pagination" aria-label="Pagination">
+<a class="page @(page<=1?"disabled":"")" asp-action="Index" asp-route-page="@(page-1)" asp-route-major="@major" asp-route-search="@search">‹</a>
+@for(int i=1;i<=totalPages;i++){<a class="page @(i==page?"active":"")" asp-action="Index" asp-route-page="@i" asp-route-major="@major" asp-route-search="@search">@i</a>}
+<a class="page @(page>=totalPages?"disabled":"")" asp-action="Index" asp-route-page="@(page+1)" asp-route-major="@major" asp-route-search="@search">›</a></nav>
+<div class="create-row"><a class="button" asp-action="Create">Create New Student</a></div>

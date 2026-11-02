@@ -1,0 +1,19 @@
+@model Learner
+@{
+    ViewData["Title"] = "Create Learner";
+}
+<h1 class="page-title">Create Learner</h1>
+<div class="card form-card shadow-sm border-0">
+    <div class="card-body">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <form asp-action="Create" method="post">
+            <div class="mb-3"><label asp-for="FirstMidName" class="form-label"></label><input asp-for="FirstMidName" class="form-control" placeholder="First Mid Name" /><span asp-validation-for="FirstMidName" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="LastName" class="form-label"></label><input asp-for="LastName" class="form-control" placeholder="Last Name" /><span asp-validation-for="LastName" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="MajorID" class="form-label">Ngành học</label><select asp-for="MajorID" asp-items="ViewBag.MajorID" class="form-select"><option value="">-- Chọn ngành --</option></select><span asp-validation-for="MajorID" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="EnrollmentDate" class="form-label"></label><input asp-for="EnrollmentDate" type="date" class="form-control" /><span asp-validation-for="EnrollmentDate" class="text-danger"></span></div>
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

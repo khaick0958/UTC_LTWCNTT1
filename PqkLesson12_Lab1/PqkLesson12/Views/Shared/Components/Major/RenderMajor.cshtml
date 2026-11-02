@@ -1,0 +1,8 @@
+@model IEnumerable<Lab4_MVC_EFCore.Models.Major>
+<ul class="nav flex-column">
+    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Learner")">Tất cả người học</a></li>
+    @foreach (var major in Model)
+    {
+        <li class="nav-item" id="@major.MajorID"><a class="nav-link major-filter" href="#">@major.MajorName</a></li>
+    }
+</ul>

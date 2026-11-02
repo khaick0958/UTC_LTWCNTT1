@@ -1,0 +1,13 @@
+@model IEnumerable<Lab4_MVC_EFCore.Models.Learner>
+<table class="table table-striped table-hover align-middle mb-0">
+    <thead><tr><th>Mã</th><th>Tên</th><th>Họ</th><th>Ngành</th><th>Ngày nhập học</th><th class="text-end">Chức năng</th></tr></thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.LearnerID</td><td>@s.FirstMidName</td><td>@s.LastName</td><td>@(s.Major?.MajorName ?? "Chưa chọn")</td><td>@s.EnrollmentDate.ToString("dd/MM/yyyy")</td>
+            <td class="text-end text-nowrap"><a asp-action="Edit" asp-route-id="@s.LearnerID" class="btn btn-sm btn-outline-primary">Sửa</a> <a asp-action="Delete" asp-route-id="@s.LearnerID" class="btn btn-sm btn-outline-danger">Xóa</a></td>
+        </tr>
+    }
+    </tbody>
+</table>

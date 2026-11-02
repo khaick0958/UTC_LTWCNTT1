@@ -1,0 +1,20 @@
+@model Learner
+@{
+    ViewData["Title"] = "Edit Learner";
+}
+<h1 class="page-title">Edit Learner</h1>
+<div class="card form-card shadow-sm border-0">
+    <div class="card-body">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+        <form asp-action="Edit" asp-route-id="@Model.LearnerID" method="post">
+            <input type="hidden" asp-for="LearnerID" />
+            <div class="mb-3"><label asp-for="FirstMidName" class="form-label"></label><input asp-for="FirstMidName" class="form-control" /><span asp-validation-for="FirstMidName" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="LastName" class="form-label"></label><input asp-for="LastName" class="form-control" /><span asp-validation-for="LastName" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="MajorID" class="form-label">Ngành học</label><select asp-for="MajorID" asp-items="ViewBag.MajorID" class="form-select"></select><span asp-validation-for="MajorID" class="text-danger"></span></div>
+            <div class="mb-3"><label asp-for="EnrollmentDate" class="form-label"></label><input asp-for="EnrollmentDate" type="date" class="form-control" /><span asp-validation-for="EnrollmentDate" class="text-danger"></span></div>
+            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

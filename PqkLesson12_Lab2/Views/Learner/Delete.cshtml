@@ -1,0 +1,2 @@
+@model Learner
+<h1>Delete Learner</h1><p>Bạn có chắc muốn xóa <strong>@Model.Name @Model.Surname</strong>?</p><form asp-action="Delete" method="post"><input type="hidden" asp-for="Id"/><button class="button danger">Delete</button> <a asp-action="Index">Cancel</a></form>
