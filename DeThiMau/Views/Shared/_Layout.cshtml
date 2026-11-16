@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>@ViewData["Title"] - Cửa hàng trực tuyến</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/global.css" />
+    <link rel="stylesheet" href="~/css/slider.css" />
+    <link rel="stylesheet" href="~/css/easy-responsive-tabs.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="wrap">
+        <partial name="_Header" />
+        <div class="main">
+            <div class="content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <partial name="_Footer" />
+    <script src="~/js/jquery-1.7.2.min.js"></script>
+    <script src="~/js/easing.js"></script>
+    <script src="~/js/slides.min.jquery.js"></script>
+    <script src="~/js/easyResponsiveTabs.js"></script>
+    <script src="~/js/jquery.accordion.js"></script>
+    <script src="~/js/jquery.easing.js"></script>
+    <script src="~/js/move-top.js"></script>
+    <script src="~/js/startstop-slider.js"></script>
+    <script src="~/js/script.js"></script>
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

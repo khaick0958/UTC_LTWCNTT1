@@ -1,0 +1,14 @@
+@model HangHoa
+@{ ViewData["Title"] = "Thêm hàng hóa"; }
+<div class="content_top"><div class="heading"><h3>Thêm hàng hóa</h3></div><div class="clear"></div></div>
+<div class="create-wrap">
+    <form asp-action="Create" method="post" class="create-form">
+        <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+        <div class="form-row"><label asp-for="TenHang"></label><input asp-for="TenHang" /><span asp-validation-for="TenHang" class="field-validation"></span></div>
+        <div class="form-row"><label asp-for="MaLoai"></label><select asp-for="MaLoai" asp-items="ViewBag.MaLoai"><option value="">-- Chọn loại hàng --</option></select><span asp-validation-for="MaLoai" class="field-validation"></span></div>
+        <div class="form-row"><label asp-for="Gia"></label><input asp-for="Gia" type="number" min="100" max="5000" step="1" /><span asp-validation-for="Gia" class="field-validation"></span></div>
+        <div class="form-row"><label asp-for="Anh"></label><input asp-for="Anh" placeholder="Img_1.jpg" /><span asp-validation-for="Anh" class="field-validation"></span><small>Nhập tên file ảnh có sẵn trong wwwroot/images.</small></div>
+        <div class="form-actions"><button type="submit">Lưu hàng hóa</button><a asp-controller="Home" asp-action="Index">Quay lại</a></div>
+    </form>
+</div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

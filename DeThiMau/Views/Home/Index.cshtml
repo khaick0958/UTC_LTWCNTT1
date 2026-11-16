@@ -1,0 +1,20 @@
+@model IEnumerable<HangHoa>
+@{
+    var tenSinhVien = ViewBag.StudentName as string ?? "Họ tên sinh viên";
+    ViewData["Title"] = tenSinhVien;
+}
+<div class="content_top">
+    <div class="heading"><h3>@tenSinhVien</h3></div>
+    <div class="see"><p><a asp-controller="HangHoa" asp-action="Create">+ Thêm hàng hóa</a></p></div>
+    <div class="clear"></div>
+</div>
+@if (TempData["ThongBao"] != null)
+{
+    <p class="notice">@TempData["ThongBao"]</p>
+}
+<div id="product-list">
+    <partial name="_DanhSachHangHoa" model="Model" />
+</div>
+@section Scripts {
+    <script>window.hangHoaTheoLoaiUrl = '@Url.Action("TheoLoai", "Home")';</script>
+}

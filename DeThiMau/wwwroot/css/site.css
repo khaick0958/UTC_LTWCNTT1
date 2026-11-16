@@ -1,0 +1,16 @@
+/* CSS bổ sung, giữ nguyên giao diện gốc trong style.css */
+.product-card { min-height: 290px; box-sizing: border-box; }
+.product-card img { max-width: 100%; height: 145px; object-fit: contain; }
+.product-card h2 { min-height: 38px; }
+.empty-products, .notice { padding: 18px 0; color: #555; }
+.notice { color: #237a36; }
+.create-wrap { max-width: 620px; padding: 22px 0 45px; }
+.create-form { background: #f7f7f7; border: 1px solid #e4e4e4; padding: 22px; }
+.form-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.form-row label { font-weight: bold; color: #444; }
+.form-row input, .form-row select { padding: 10px; border: 1px solid #ccc; width: 100%; box-sizing: border-box; font: inherit; }
+.form-row small { color: #777; }
+.form-actions { display: flex; gap: 16px; align-items: center; }
+.form-actions button { background: #e44f2b; color: white; border: 0; padding: 10px 22px; cursor: pointer; }
+.field-validation, .validation-summary { color: #c62828; font-size: 0.9em; }
+@media (max-width: 600px) { .product-card { width: 48%; } .create-form { padding: 14px; } }

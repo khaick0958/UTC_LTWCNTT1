@@ -1,0 +1,29 @@
+@{
+    var loais = ViewBag.LoaiHangs as IEnumerable<LoaiHang> ?? Enumerable.Empty<LoaiHang>();
+    var tenSinhVien = ViewBag.StudentName as string ?? "Họ tên sinh viên";
+}
+<div class="header">
+    <div class="header_top">
+        <div class="logo"><a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" alt="Logo cửa hàng" /></a></div>
+        <div class="cart"><p>Welcome to our Online Store! <span>Cart:</span> <span class="wrapper-dropdown-2">0 item(s) - 0.00
+            <ul class="dropdown"><li>Chào mừng bạn đến với cửa hàng trực tuyến</li></ul>
+        </span></p></div>
+        <div class="clear"></div>
+    </div>
+    <div class="header_bottom">
+        <div class="menu">
+            <ul>
+                <li class="active"><a asp-controller="Home" asp-action="Index">@tenSinhVien</a></li>
+                @foreach (var loai in loais)
+                {
+                    <li><a href="#" class="category-link" data-id="@loai.MaLoai">@loai.TenLoai</a></li>
+                }
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="search_box">
+            <form onsubmit="return false;"><input id="search-product" type="text" placeholder="Tìm hàng hóa..." /><input type="button" value="" /></form>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
