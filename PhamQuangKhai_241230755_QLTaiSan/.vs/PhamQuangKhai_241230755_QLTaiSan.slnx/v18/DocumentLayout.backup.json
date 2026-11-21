@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\shared\\phamquangkhai_maincontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\models\\qltaisancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|c:\\users\\pham quang khai\\documents\\utc_ltwcntt_pqk\\utc_ltwcntt1\\phamquangkhai_241230755_qltaisan\\phamquangkhai_241230755_qltaisan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C733FC6C-CDB1-47D9-85B9-318618DED455}|PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan.csproj|solutionrelative:phamquangkhai_241230755_qltaisan\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Program.cs",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Program.cs",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Program.cs",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T01:39:24.813Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T01:34:05.336Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QltaiSanContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Models\\QltaiSanContext.cs",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Models\\QltaiSanContext.cs",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Models\\QltaiSanContext.cs",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Models\\QltaiSanContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-21T01:28:27.666Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:18:46.957Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:15:18.844Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhamQuangKhai_MainContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_MainContent.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_MainContent.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_MainContent.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_MainContent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:14:27.43Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhamQuangKhai_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Footer.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Footer.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Footer.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:14:12.056Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhamQuangKhai_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Header.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Header.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Header.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:13:58.947Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PhamQuangKhai_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Pham Quang Khai\\Documents\\UTC_LTWCNTT_PQK\\UTC_LTWCNTT1\\PhamQuangKhai_241230755_QLTaiSan\\PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Layout.cshtml",
+              "RelativeToolTip": "PhamQuangKhai_241230755_QLTaiSan\\Views\\Shared\\PhamQuangKhai_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-21T01:13:34.058Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

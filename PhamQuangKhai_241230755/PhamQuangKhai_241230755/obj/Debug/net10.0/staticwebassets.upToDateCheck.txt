@@ -1,5 +1,19 @@
+wwwroot\css\layout.css
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\images\banner.jpg
+wwwroot\images\Img_1.jpg
+wwwroot\images\Img_2.jpg
+wwwroot\images\Img_3.jpg
+wwwroot\images\Img_4.jpg
+wwwroot\images\Img_5.jpg
+wwwroot\images\Img_6.jpg
+wwwroot\images\Img_7.jpg
+wwwroot\images\Img_8.jpg
+wwwroot\images\logo.png
+wwwroot\js\jquery.min.js
+wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -61,20 +75,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\images\banner.jpg
-wwwroot\images\Img_1.jpg
-wwwroot\images\Img_2.jpg
-wwwroot\images\Img_3.jpg
-wwwroot\images\Img_4.jpg
-wwwroot\images\Img_5.jpg
-wwwroot\images\Img_6.jpg
-wwwroot\images\Img_7.jpg
-wwwroot\images\Img_8.jpg
-wwwroot\images\logo.png
-wwwroot\css\layout.css
-wwwroot\css\style.css
-wwwroot\js\jquery.min.js
-wwwroot\js\main.js
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PhamQuangKhai_241230755\PhamQuangKhai_241230755\wwwroot\css\layout.css
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PhamQuangKhai_241230755\PhamQuangKhai_241230755\wwwroot\css\site.css
 C:\Users\Pham Quang Khai\Documents\UTC_LTWCNTT_PQK\UTC_LTWCNTT1\PhamQuangKhai_241230755\PhamQuangKhai_241230755\wwwroot\css\style.css

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PhamQuangKhai_241230755_QLTaiSan.Models.TaiSan>
+
+<!-- Begin Main Content -->
+<main class="main">
+    <div class="container">
+        <div class="banner"><img src="images/banner.jpg" alt="Banner" /></div>
+
+        <!-- Tài sản mới nhập -->
+        <div class="section-head">
+            <h3>@ViewBag.TieuDe</h3>
+            <a href="#">Xem tất cả &rsaquo;</a>
+        </div>
+        <div class="grid">
+            @foreach (var ts in Model)
+            {
+                <div class="asset-card">
+                    <a href="#"><img src="images/@ts.Anh" alt="@ts.TenTs" /></a>
+                    <h2>@ts.TenTs</h2>
+                    <div class="asset-foot"><span class="price">@(ts.NguyenGia?.ToString("0"))</span><button class="btn-buy">Chi tiết</button></div>
+                </div>
+            }
+        </div>
+
+        <!-- Tài sản giá trị cao -->
+        <div class="section-head">
+            <h3>Tài sản giá trị cao</h3>
+            <a href="#">Xem tất cả &rsaquo;</a>
+        </div>
+        <div class="grid">
+            <div class="asset-card">
+                <a href="#"><img src="images/Img_7.jpg" alt="" /></a>
+                <h2>Ô tô Toyota Innova 2.0</h2>
+                <div class="asset-foot"><span class="price">820 tr</span><button class="btn-buy">Chi tiết</button></div>
+            </div>
+            <div class="asset-card">
+                <a href="#"><img src="images/Img_8.jpg" alt="" /></a>
+                <h2>Máy CNC phay 3 trục</h2>
+                <div class="asset-foot"><span class="price">1250 tr</span><button class="btn-buy">Chi tiết</button></div>
+            </div>
+            <div class="asset-card">
+                <a href="#"><img src="images/Img_6.jpg" alt="" /></a>
+                <h2>Bàn họp 12 chỗ Hòa Phát</h2>
+                <div class="asset-foot"><span class="price">22 tr</span><button class="btn-buy">Chi tiết</button></div>
+            </div>
+            <div class="asset-card">
+                <a href="#"><img src="images/Img_4.jpg" alt="" /></a>
+                <h2>Máy chiếu Epson EB-X49</h2>
+                <div class="asset-foot"><span class="price">15 tr</span><button class="btn-buy">Chi tiết</button></div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- End Main Content -->

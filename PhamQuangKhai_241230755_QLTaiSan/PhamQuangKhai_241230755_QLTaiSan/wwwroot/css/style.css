@@ -1,0 +1,37 @@
+/* AssetHub - giao diện */
+.topbar{background:#142c52;color:#cfdcf0;font-size:13px}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;padding:6px 0}
+.topbar b{color:#f5a623}
+.header-main{background:#1d3f72}
+.header-main .container{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+.cart-box{background:#f5a623;color:#142c52;padding:8px 16px;border-radius:20px;font-weight:600;font-size:14px}
+.navbar{background:#fff;border-bottom:3px solid #f5a623;box-shadow:0 2px 6px rgba(0,0,0,.08)}
+.navbar .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.menu{display:flex;flex-wrap:wrap}
+.menu li a{display:block;padding:14px 20px;font-weight:600;font-size:14px;text-transform:uppercase;color:#1d3f72;transition:.2s}
+.menu li a:hover,.menu li.active a{background:#1d3f72;color:#fff}
+.search-box{display:flex}
+.search-box input{border:1px solid #c5d3d8;padding:7px 12px;border-radius:4px 0 0 4px;width:200px;outline:none}
+.search-box button{background:#1d3f72;color:#fff;border:0;padding:7px 14px;border-radius:0 4px 4px 0;cursor:pointer}
+.banner{margin:20px auto}
+.banner img{width:100%;border-radius:8px}
+.main{padding:10px 0 30px;min-height:420px}
+.section-head{display:flex;justify-content:space-between;align-items:center;border-left:5px solid #f5a623;background:#fff;padding:10px 16px;margin:20px 0 16px;border-radius:0 6px 6px 0}
+.section-head h3{font-size:18px;color:#1d3f72;text-transform:uppercase}
+.section-head a{font-size:13px;color:#d9531e}
+.asset-card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.1);transition:.2s;text-align:center}
+.asset-card:hover{transform:translateY(-4px);box-shadow:0 6px 14px rgba(0,0,0,.15)}
+.asset-card img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
+.asset-card h2{font-size:15px;color:#1d3f72;padding:10px 10px 4px;min-height:48px}
+.asset-foot{display:flex;justify-content:space-between;align-items:center;padding:8px 12px 12px;border-top:1px solid #e6eef0}
+.asset-foot .price{font-size:17px;font-weight:700;color:#d9531e}
+.btn-buy{background:#1d3f72;color:#fff;border:0;padding:7px 12px;border-radius:4px;font-size:13px;cursor:pointer}
+.btn-buy:hover{background:#f5a623;color:#142c52}
+.footer{background:#142c52;color:#cfdcf0;padding:30px 0 10px;margin-top:20px}
+.footer .grid{margin-bottom:16px}
+.footer h4{color:#f5a623;margin-bottom:10px;font-size:15px;text-transform:uppercase}
+.footer li{font-size:14px;margin-bottom:6px}
+.footer li a:hover{color:#f5a623}
+.copyright{text-align:center;font-size:12px;border-top:1px solid #2d4a7a;padding-top:10px;color:#9db3d6}
+.to-top{position:fixed;right:20px;bottom:20px;background:#f5a623;color:#142c52;width:40px;height:40px;border-radius:50%;text-align:center;line-height:40px;font-weight:700;display:none;cursor:pointer}
+@media(max-width:700px){.search-box input{width:130px}.menu li a{padding:10px 12px}}
